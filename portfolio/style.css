@@ -1,0 +1,146 @@
+/* font style */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    /* background-color: beige; */
+}
+
+.sidebar{
+    background-color: rgb(214, 226, 222);
+    width: 10%;
+    height: 100vh;
+}
+.sidebar a{
+    /* background-color: rgb(165, 189, 181); */
+    width: 10%;
+    text-decoration: none;
+    color: black;
+    height: 100vh;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 15px;
+    margin:15px;
+
+}
+.sidebar nav{
+    /* background-color: aqua; */
+    /* width: 30%; */
+    padding: 15px;
+    word-spacing:initial;
+    
+    
+}
+
+.main{
+    width: 90%;
+
+    background-color: rgb(141, 128, 152);
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /* background-color: khaki; */
+    height: 50vh;
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+.image img{
+    height: 50vh;
+    /* width: 50vh; */
+}
+.information{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 30px;
+
+    font-family:sans-serif;
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.about{
+margin: 2px;
+padding: 6px;
+}
+
+.btn{
+    /* box-sizing: 155%; */
+    width: 104px;
+ padding: 5px;
+ border-radius: 12px;
+ font-size: 10px;
+ letter-spacing: 1px;
+background-color: rgb(92, 157, 213);
+}
+.btn-primary{
+    font-size: 45%;
+
+}
+.btn:hover{
+    background-color: aliceblue;
+    color: blue;
+}
+.contactform{
+    /* display: flex; */
+   font-style:oblique;
+  /* align-items: center; */
+    /* padding-left: 151px; */
+    /* justify-content: center; */
+  margin: 10px;
+  padding: 25px;
+
+  font-size: larger;  
+}
+.contactform div input{
+    border-radius: 4px;
+    /* width: 241px; */
+}
+.contactform h1{
+    font-size: 30px;
+    justify-content: center;
+    /* text-align:right; */
+}
+.contactform form div{
+    padding: 4px;
+
+}
+#emailHelp{
+    font-size: 10px;
+
+}
+.clientemail1{
+    font-size: 110px;
+}
+.mb-3{
+    width: 19vw;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.mb-3form-check{
+    padding: 15px 0;
+    margin: 19px 0 0 0;
+    flex-direction: none;
+}
+.informatio{
+    padding: 4%;
+}
+.aboutme{
+    padding: 46px; 
+    margin: 15px;
+     flex-direction: none;
+}
